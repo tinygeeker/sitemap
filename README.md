@@ -8,7 +8,7 @@
 </p>
 
 ## 项目预览
-![guide](https://autofelix.github.io/autofelix/u/project/guide.jpeg)
+![guide](https://autofelix.github.io/autofelix/project/guide.jpeg)
 
 ## 项目贡献
 
