@@ -10,6 +10,18 @@
 ## 项目预览
 ![guide](https://autofelix.github.io/autofelix/project/guide.jpeg)
 
+## 使用方法
+
+> 安装扩展
+```
+npm install
+```
+
+> 启动预览
+```
+npm run serve
+```
+
 ## 项目贡献
 
 如果你觉得项目有用，就请我喝杯奶茶吧。 :tropical_drink:
