@@ -8,7 +8,7 @@
 </p>
 
 ## 项目预览
-![guide](https://autofelix.github.io/autofelix/project/guide.jpeg)
+![guide](https://tinygeeker.github.io/tinygeeker/p/guide.jpeg)
 
 ## 使用方法
 
@@ -26,28 +26,28 @@ npm run serve
 
 如果你觉得项目有用，就请我喝杯奶茶吧。 :tropical_drink:
 
-![donate](https://autofelix.github.io/autofelix/u/sponsor/matrix.jpeg)
+![donate](https://tinygeeker.github.io/tinygeeker/u/sponsor/matrix.jpeg)
 
 ## 加入我们
 
 想学习更多的技术知识，就关注我的个人公众号吧。 :blush:
 
-![donate](https://autofelix.github.io/autofelix/u/attention/matrix.jpeg)
+![donate](https://tinygeeker.github.io/tinygeeker/u/attention/matrix.jpeg)
 
 ## 个人主页
 
 极客飞兔：CSDN博客专家、阿里云专家博主、华为云云享受专家，欢迎关注。 :tropical_drink:
 
-![donate](https://autofelix.github.io/autofelix/u/follow/matrix.jpeg)
+![donate](https://tinygeeker.github.io/tinygeeker/u/follow/matrix.jpeg)
 
 ## 浏览器支持情况
 
-| [<img src="https://autofelix.github.io/autofelix/svg/ie.svg" alt="IE / Edge" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://autofelix.github.io/autofelix/svg/firefox.svg" alt="Firefox" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://autofelix.github.io/autofelix/svg/chrome.svg" alt="Chrome" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://autofelix.github.io/autofelix/svg/safari.svg" alt="Safari" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Safari | [<img src="https://autofelix.github.io/autofelix/svg/sogou.svg" alt="Sogou" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Sogou | [<img src="https://autofelix.github.io/autofelix/svg/uc.svg" alt="UC" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>UC | [<img src="https://autofelix.github.io/autofelix/svg/360.svg" alt="360" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>360 |
+| [<img src="https://tinygeeker.github.io/tinygeeker/svg/ie.svg" alt="IE / Edge" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://tinygeeker.github.io/tinygeeker/svg/firefox.svg" alt="Firefox" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://tinygeeker.github.io/tinygeeker/svg/chrome.svg" alt="Chrome" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://tinygeeker.github.io/tinygeeker/svg/safari.svg" alt="Safari" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Safari | [<img src="https://tinygeeker.github.io/tinygeeker/svg/sogou.svg" alt="Sogou" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Sogou | [<img src="https://tinygeeker.github.io/tinygeeker/svg/uc.svg" alt="UC" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>UC | [<img src="https://tinygeeker.github.io/tinygeeker/svg/360.svg" alt="360" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>360 |
 | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
 | 所有版本 | 所有版本 | 所有版本 | 所有版本 | 所有版本 | 所有版本 | 所有版本 |
 
 ## License
 
-[MIT](https://github.com/autofelix/navigation-site/blob/main/LICENSE)
+[MIT](https://github.com/tinygeeker/navigation-site/blob/main/LICENSE)
 
-Copyright (c) 2021-present autofelix
+Copyright (c) 2021-present tinygeeker
