@@ -8,7 +8,7 @@
 </p>
 
 ## 项目预览
-![guide](https://tinygeeker.github.io/tinygeeker/p/guide.jpeg)
+![guide](https://tinygeeker.github.io/assets/imgs/navigation-website.jpeg)
 
 ## 使用方法
 
@@ -22,7 +22,7 @@ npm install
 npm run serve
 ```
 
-## 项目贡献
+<!-- ## 项目贡献
 
 如果你觉得项目有用，就请我喝杯奶茶吧。 :tropical_drink:
 
@@ -38,7 +38,7 @@ npm run serve
 
 极客飞兔：CSDN博客专家、阿里云专家博主、华为云云享受专家，欢迎关注。 :tropical_drink:
 
-![donate](https://tinygeeker.github.io/tinygeeker/u/follow/matrix.jpeg)
+![donate](https://tinygeeker.github.io/tinygeeker/u/follow/matrix.jpeg) -->
 
 ## 浏览器支持情况
 
