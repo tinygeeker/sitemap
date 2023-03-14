@@ -8,7 +8,7 @@
 </p>
 
 ## 项目预览
-![guide](https://tinygeeker.github.io/assets/imgs/navigation-website.png)
+![项目预览](https://tinygeeker.github.io/assets/imgs/navigation-website.png)
 
 ## 使用方法
 
