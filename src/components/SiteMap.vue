@@ -19,8 +19,8 @@
             </div>
             <div>
               <el-link :underline="false" style="font-weight:bold;">热门：</el-link>
-              <el-link href="https://www.bilibili.com/" target="_blank" type="danger">哔哩哔哩</el-link>
               <el-link href="https://s.weibo.com/top/summary" target="_blank" type="danger">微博热搜</el-link>
+              <el-link href="https://www.bilibili.com/" target="_blank" type="danger">哔哩哔哩</el-link>
               <el-link href="https://www.douyin.com/" target="_blank" type="danger">抖音</el-link>
               <el-link href="https://www.douban.com/" target="_blank" type="primary">豆瓣</el-link>
               <el-link href="https://www.zhihu.com/" target="_blank" type="primary">知乎</el-link>
@@ -53,6 +53,7 @@
             </template>
             <div>
               <el-link :underline="false" style="font-weight:bold;">音乐：</el-link>
+              <el-link href="http://www.ihaoge.net/" target="_blank" type="danger">爱好歌音乐网</el-link>
               <el-link href="https://music.163.com/" target="_blank" type="danger">网易云音乐</el-link>
               <el-link href="https://y.qq.com/" target="_blank" type="danger">QQ音乐</el-link>
               <el-link href="https://www.kugou.com/" target="_blank" type="primary">酷狗音乐</el-link>
@@ -172,7 +173,32 @@
               <el-icon><Mouse /></el-icon> 效率工具
             </template>
             <div>
-              <el-link :underline="false" style="font-weight:bold;">以图搜图：</el-link>
+              <el-link :underline="false" style="font-weight:bold;">导航：</el-link>
+              <el-link href="https://shadiao.app/" target="_blank" type="danger">沙雕导航</el-link>
+              <el-link href="https://ai-bot.cn/" target="_blank" type="danger">AI工具集</el-link>
+              <el-link href="https://tool.lu/" target="_blank" type="primary">程序员工具箱</el-link>
+              <el-link href="https://www.iamwawa.cn/" target="_blank" type="primary">蛙蛙工具</el-link>
+              <el-link href="https://xmrth.net/" target="_blank" type="primary">XMRth</el-link>
+            </div>
+            <div>
+              <el-link :underline="false" style="font-weight:bold;">效率：</el-link>
+              <el-link href="https://tinypng.com/" target="_blank" type="danger">图片无损压缩</el-link>
+              <el-link href="https://bigjpg.com/" target="_blank" type="danger">图片无损放大</el-link>
+              <el-link href="http://www.yalijuda.com/" target="_blank" type="danger">图片视频压缩</el-link>
+              <el-link href="https://www.zhihuilib.com/general/gifcompress" target="_blank" type="primary">GIF压缩</el-link>
+              <el-link href="http://www.topdf.cn/" target="_blank" type="primary">TOPDF转换器</el-link>
+              <el-link href="https://ps.gaoding.com/" target="_blank" type="primary">在线PS</el-link>
+              <el-link href="https://www.apowersoft.cn/free-audio-recorder-online" target="_blank" type="primary">在线录音</el-link>
+              <el-link href="https://www.greatdreams.com.cn/" target="_blank" type="primary">房贷计算器</el-link>
+              <el-link href="https://sina.lt/" target="_blank" type="primary">新浪短链</el-link>
+              <el-link href="https://cli.im/" target="_blank" type="primary">草料二维码</el-link>
+              <el-link href="http://24mail.chacuo.net/" target="_blank" type="primary">临时邮箱</el-link>
+              <el-link href="https://www.aoqiv.com/" target="_blank" type="primary">在线音频剪辑</el-link>
+              <el-link href="https://www.kapwing.com/" target="_blank" type="primary">在线视频剪辑</el-link>
+              <el-link href="https://suulnnka.github.io/BullshitGenerator/index.html" target="_blank" type="primary">文章生成器</el-link>
+            </div>
+            <div>
+              <el-link :underline="false" style="font-weight:bold;">识图：</el-link>
               <el-link href="https://gfsoso.soik.top/image.html" target="_blank" type="danger">谷歌识图</el-link>
               <el-link href="https://yandex.com/images" target="_blank" type="primary">yandex识图</el-link>
               <el-link href="https://cn.bing.com/visualsearch" target="_blank" type="primary">必应识图</el-link>
@@ -181,7 +207,7 @@
               <el-link href="https://image.baidu.com/" target="_blank" type="primary">百度识图</el-link>
             </div>
             <div>
-              <el-link :underline="false" style="font-weight:bold;">行业报告：</el-link>
+              <el-link :underline="false" style="font-weight:bold;">报告：</el-link>
               <el-link href="https://www.iresearch.com.cn/report.shtml" target="_blank" type="danger">艾瑞咨询</el-link>
               <el-link href="https://www.iimedia.cn/" target="_blank" type="danger">艾媒网</el-link>
               <el-link href="http://www.aliresearch.com/cn/index" target="_blank" type="primary">阿里研究院</el-link>
@@ -193,7 +219,7 @@
               <el-link href="https://data.stats.gov.cn/" target="_blank" type="primary">国家数据</el-link>
             </div>
             <div>
-              <el-link :underline="false" style="font-weight:bold;">PPT模板：</el-link>
+              <el-link :underline="false" style="font-weight:bold;">模板：</el-link>
               <el-link href="http://www.hippter.com/" target="_blank" type="danger">Hippter</el-link>
               <el-link href="http://www.tretars.com/" target="_blank" type="danger">比格PPT</el-link>
               <el-link href="http://www.51pptmoban.com/" target="_blank" type="primary">51PPT</el-link>
@@ -211,17 +237,11 @@
               <el-link href="https://graphicriver.net/" target="_blank" type="primary">Graphics</el-link>
             </div>
             <div>
-              <el-link :underline="false" style="font-weight:bold;">工作高效：</el-link>
-              <el-link href="https://shadiao.app/" target="_blank" type="danger">沙雕导航</el-link>
-              <el-link href="https://sina.lt/" target="_blank" type="danger">新浪短链</el-link>
-              <el-link href="https://cli.im/" target="_blank" type="danger">草料二维码</el-link>
-              <el-link href="http://24mail.chacuo.net/" target="_blank" type="primary">临时邮箱</el-link>
-              <el-link href="https://ps.gaoding.com/" target="_blank" type="primary">在线PS</el-link>
-              <el-link href="https://www.aoqiv.com/" target="_blank" type="primary">在线音频剪辑</el-link>
-              <el-link href="https://www.kapwing.com/" target="_blank" type="primary">在线视频剪辑</el-link>
-              <el-link href="https://tool.lu/" target="_blank" type="primary">程序员工具箱</el-link>
-              <el-link href="https://www.iamwawa.cn/" target="_blank" type="primary">蛙蛙工具</el-link>
-              <el-link href="https://suulnnka.github.io/BullshitGenerator/index.html" target="_blank" type="primary">文章生成器</el-link>
+              <el-link :underline="false" style="font-weight:bold;">仓库：</el-link>
+              <el-link href="https://github.com/" target="_blank" type="danger">Github</el-link>
+              <el-link href="https://gitlab.com/" target="_blank" type="danger">Gitlab</el-link>
+              <el-link href="https://gitee.com/" target="_blank" type="danger">Gitee</el-link>
+              <el-link href="https://github.welab.eu.org/" target="_blank" type="primary">Github加速器</el-link>
             </div>
           </el-collapse-item>
           <el-collapse-item name="5" align="left">
