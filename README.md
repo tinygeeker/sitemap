@@ -19,7 +19,7 @@ npm install
 
 > 启动预览
 ```
-npm run serve
+npm run tinygeeker
 ```
 
 ## 项目贡献
