@@ -304,7 +304,7 @@
               <el-link :underline="false" style="font-weight:bold;">仓库：</el-link>
               <el-link href="https://github.com/" target="_blank" type="danger">Github</el-link>
               <el-link href="https://gitlab.com/" target="_blank" type="danger">Gitlab</el-link>
-              <el-link href="https://gitee.com/" target="_blank" type="danger">Gitee</el-link>
+              <el-link href="https://gitee.com/enterprises?invite_code=Z2l0ZWUtMTc0NDMzOQ%3D%3D" target="_blank" type="danger">Gitee</el-link>
               <el-link href="https://github.welab.eu.org/" target="_blank" type="primary">Github加速器</el-link>
             </div>
           </el-collapse-item>
