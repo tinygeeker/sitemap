@@ -9,8 +9,15 @@
               <el-icon><Operation /></el-icon> 常用网址
             </template>
             <div>
+              <el-link :underline="false" style="font-weight:bold;">推荐：</el-link>
+              <el-link href="http://www.xiaozhongai.top/?code=lMaCoXNBPv" target="_blank" type="danger">国内版ChatGPT</el-link>
+              <el-link href="https://www.logosc.cn/?coupon=tinygeeker" target="_blank" type="danger">标小智Logo生成器</el-link>
+            </div>
+            <div>
               <el-link :underline="false" style="font-weight:bold;">搜索：</el-link>
               <el-link href="https://www.baidu.com/" target="_blank" type="danger">百度一下</el-link>
+              <el-link href="https://www.wuzhuiso.com/" target="_blank" type="danger">无追搜索</el-link>
+              <el-link href="https://www.gobaidugle.com/" target="_blank" type="danger">联合搜索</el-link>
               <el-link href="https://www.google.com/" target="_blank" type="danger">谷歌搜索「墙」</el-link>
               <el-link href="https://www.bing.com/" target="_blank" type="primary">必应搜索</el-link>
               <el-link href="https://www.sogou.com/" target="_blank" type="primary">搜狗搜索</el-link>
@@ -53,6 +60,9 @@
               <el-link :underline="false" style="font-weight:bold;">音乐：</el-link>
               <el-link href="http://www.ihaoge.net/" target="_blank" type="danger">爱好歌音乐网</el-link>
               <el-link href="https://www.hifini.com/" target="_blank" type="danger">音乐磁场</el-link>
+              <el-link href="https://tools.liumingye.cn/music/#/" target="_blank" type="danger">MyFreeMp3</el-link>
+              <el-link href="http://qingyinyue.club/" target="_blank" type="danger">轻音乐俱乐部</el-link>
+              <el-link href="https://music.ghxi.com/" target="_blank" type="danger">果核音乐</el-link>
               <el-link href="https://music.163.com/" target="_blank" type="danger">网易云音乐</el-link>
               <el-link href="https://y.qq.com/" target="_blank" type="danger">QQ音乐</el-link>
               <el-link href="https://www.kugou.com/" target="_blank" type="primary">酷狗音乐</el-link>
@@ -63,17 +73,11 @@
               <el-link href="https://music.douban.com/" target="_blank" type="primary">豆瓣音乐</el-link>
             </div>
             <div>
-              <el-link :underline="false" style="font-weight:bold;">磁力：</el-link>
-              <el-link href="https://cursor.vip/vip" target="_blank" type="danger">吃力网</el-link>
-              <el-link href="https://bt1207dizhi.icu/" target="_blank" type="primary">BT1207</el-link>
-              <el-link href="https://skrbtra.top/" target="_blank" type="primary">SKRBT</el-link>
-              <el-link href="https://www.yuhuage.art/" target="_blank" type="primary">雨花阁</el-link>
-            </div>
-            <div>
               <el-link :underline="false" style="font-weight:bold;">游戏：</el-link>
-              <el-link href="http://www.4399.com/" target="_blank" type="danger">4399</el-link>
+              <el-link href="https://www.668play.com/" target="_blank" type="danger">668游戏仓库</el-link>
+              <el-link href="https://www.crazygames.com/" target="_blank" type="danger">CrazyGames</el-link>
               <el-link href="https://www.yikm.net/" target="_blank" type="danger">千米娱乐</el-link>
-              <el-link href="http://www.pc6.com/h5/soft_487_1.html" target="_blank" type="primary">网页游戏</el-link>
+              <el-link href="http://www.4399.com/" target="_blank" type="danger">4399</el-link>
               <el-link href="https://cg.163.com/" target="_blank" type="primary">网易云游戏</el-link>
               <el-link href="https://cloudgame.douyu.com/" target="_blank" type="primary">斗鱼云游戏</el-link>
               <el-link href="https://yowa.huya.com/" target="_blank" type="primary">虎牙云游戏</el-link>
@@ -82,52 +86,65 @@
             </div>
             <div>
               <el-link :underline="false" style="font-weight:bold;">追剧：</el-link>
-              <el-link href="https://www.hfxst.com/" target="_blank" type="danger">剧知晓</el-link>
               <el-link href="https://cupfox.app/" target="_blank" type="danger">茶杯狐</el-link>
               <el-link href="https://www.6080yy3.com/" target="_blank" type="danger">6080</el-link>
               <el-link href="https://www.hdmoli.com/" target="_blank" type="danger">HDmoli</el-link>
-              <el-link href="https://www.xigua133.com/" target="_blank" type="danger">西瓜影视</el-link>
               <el-link href="https://www.qiuxia360.com/" target="_blank" type="danger">秋霞影视</el-link>
               <el-link href="https://www.333ys.tv/" target="_blank" type="danger">333影视</el-link>
-              <el-link href="https://www.mayiyahu.com/" target="_blank" type="danger">麻衣呼呀</el-link>
-              <el-link href="https://www.dianyinggou.com/" target="_blank" type="danger">电影狗</el-link>
-              <el-link href="https://www.zjtu.tv/" target="_blank" type="danger">追剧兔</el-link>
-              <el-link href="https://www.freeok.vip/" target="_blank" type="danger">FreeOK</el-link>
-              <el-link href="https://www.3wyy.com/" target="_blank" type="danger">爱看影院</el-link>
-              <el-link href="https://www.sstv.fun/" target="_blank" type="danger">速搜TV</el-link>
-              <el-link href="http://www.yilonghd.com/" target="_blank" type="danger">一龙高清</el-link>
-              <el-link href="https://www.q6qq.com/" target="_blank" type="danger">影视之家</el-link>
-              <el-link href="https://dadagui.me/" target="_blank" type="danger">达达龟</el-link>
+              <el-link href="https://www.netfly.tv/" target="_blank" type="danger">奈飞中文影视</el-link>
+              <el-link href="https://www.subaibaiys.com/" target="_blank" type="danger">素白白</el-link>
+              <el-link href="https://tkznp.com/" target="_blank" type="danger">天空影视</el-link>
+              <el-link href="https://www.zxzjhd.com/" target="_blank" type="danger">在线之家</el-link>
+              <el-link href="https://www.cz4k.com/" target="_blank" type="danger">厂长资源</el-link>
+              <el-link href="https://ddys.art/" target="_blank" type="danger">低端影视</el-link>
+              <el-link href="https://55dy9.vip/" target="_blank" type="danger">555电影</el-link>
+              <el-link href="https://www.mjw6.cc/" target="_blank" type="danger">美剧窝</el-link>
+              <el-link href="https://www.mayiyahu.com/" target="_blank" type="primary">麻衣呼呀</el-link>
+              <el-link href="https://www.dianyinggou.com/" target="_blank" type="primary">电影狗</el-link>
+              <el-link href="https://www.zjtu.tv/" target="_blank" type="primary">追剧兔</el-link>
+              <el-link href="https://www.freeok.vip/" target="_blank" type="primary">FreeOK</el-link>
+              <el-link href="https://www.3wyy.com/" target="_blank" type="primary">爱看影院</el-link>
+              <el-link href="https://dadagui.me/" target="_blank" type="primary">达达龟</el-link>
               <el-link href="https://www.pipiya.cc/" target="_blank" type="primary">皮皮鸭</el-link>
               <el-link href="https://www.dandanju.cc/" target="_blank" type="primary">蛋蛋剧</el-link>
               <el-link href="https://www.kkw361.com/" target="_blank" type="primary">看看屋</el-link>
               <el-link href="https://www.dm718.com/" target="_blank" type="primary">大米星球</el-link>
+              <el-link href="https://zhaotaici.cn/" target="_blank" type="primary">找台词</el-link>
             </div>
             <div>
               <el-link :underline="false" style="font-weight:bold;">动漫：</el-link>
               <el-link href="http://www.nicotv.biz/" target="_blank" type="danger">妮可动漫</el-link>
-              <el-link href="https://www.agemys.com/" target="_blank" type="primary">Age动漫</el-link>
+              <el-link href="https://www.bimiacg4.net/" target="_blank" type="danger">哔咪动漫</el-link>
+              <el-link href="http://www.995dm.com/" target="_blank" type="danger">久久动漫</el-link>
+              <el-link href="https://www.agedm.tv/" target="_blank" type="primary">AGE动漫</el-link>
               <el-link href="http://halihali1.com/" target="_blank" type="primary">哈里哈里</el-link>
               <el-link href="http://www.fengchedm.com/" target="_blank" type="primary">风车动漫</el-link>
-              <el-link href="http://www.995dm.com/" target="_blank" type="primary">久久动漫</el-link>
               <el-link href="https://www.36dm.com/" target="_blank" type="primary">动漫下载</el-link>
             </div>
             <div>
-              <el-link :underline="false" style="font-weight:bold;">直播：</el-link>
-              <el-link href="http://iptv.xiner.store" target="_blank" type="danger">电视直播</el-link>
-              <el-link href="http://www.zyz98.com/" target="_blank" type="primary">看全球</el-link>
-              <el-link href="http://www.qm5.cc/" target="_blank" type="primary">球迷网</el-link>
-            </div> 
+              <el-link :underline="false" style="font-weight:bold;">磁力：</el-link>
+              <el-link href="https://cursor.vip/vip" target="_blank" type="danger">吃力网</el-link>
+              <el-link href="https://bt1207dizhi.icu/" target="_blank" type="primary">BT1207</el-link>
+              <el-link href="https://skrbtra.top/" target="_blank" type="primary">SKRBT</el-link>
+              <el-link href="https://www.yuhuage.art/" target="_blank" type="primary">雨花阁</el-link>
+            </div>
             <div>
               <el-link :underline="false" style="font-weight:bold;">壁纸：</el-link>
               <el-link href="https://www.gamewallpapers.com/" target="_blank" type="danger">游戏CG图</el-link>
+              <el-link href="https://bz.zzzmh.cn/" target="_blank" type="danger">极简壁纸</el-link>
               <el-link href="https://desk.zol.com.cn/" target="_blank" type="danger">中关村壁纸</el-link>
-              <el-link href="https://bing.ioliu.cn/" target="_blank" type="primary">必应壁纸</el-link>
-              <el-link href="https://bz.zzzmh.cn/" target="_blank" type="primary">极简壁纸</el-link>
-              <el-link href="https://wallroom.io" target="_blank" type="primary">插画风</el-link>
-              <el-link href="https://gratisography.com/" target="_blank" type="primary">脑洞壁纸</el-link>
+              <el-link href="https://bing.ioliu.cn/" target="_blank" type="danger">必应壁纸</el-link>
+              <el-link href="https://www.dpm.org.cn/lights/royal.html" target="_blank" type="danger">故宫壁纸</el-link>
+              <el-link href="https://wallhaven.cc/" target="_blank" type="danger">Wallhaven</el-link>
+              <el-link href="https://alphacoders.com/" target="_blank" type="danger">Alpha Coders</el-link>
+              <el-link href="https://wallpaperscraft.com/" target="_blank" type="danger">wallpaperscraft</el-link>
+              <el-link href="https://www.10wallpaper.com/" target="_blank" type="danger">10wallpaper</el-link>
+              <el-link href="https://wallpapershome.com/" target="_blank" type="danger">Wallpapershome</el-link>
+              <el-link href="https://www.foodiesfeed.com/" target="_blank" type="primary">Foodiesfeed</el-link>
               <el-link href="https://www.wallpaperfusion.com/" target="_blank" type="primary">4K壁纸</el-link>
               <el-link href="https://10wallpaper.com/cn" target="_blank" type="primary">高清壁纸</el-link>
+              <el-link href="https://wallroom.io" target="_blank" type="primary">插画风</el-link>
+              <el-link href="https://gratisography.com/" target="_blank" type="primary">脑洞壁纸</el-link>
               <el-link href="http://www.facets.la" target="_blank" type="primary">矢量插画</el-link>
             </div> 
             <div>
@@ -140,6 +157,41 @@
               <el-link href="https://www.iizhi.cn/" target="_blank" type="primary">毕方铺</el-link>
               <el-link href="https://panother.com/" target="_blank" type="primary">盘他</el-link>
               <el-link href="https://feiyu100.cn/" target="_blank" type="primary">飞鱼盘搜</el-link>
+              <el-link href="https://www.woxiangsou.com/" target="_blank" type="primary">口袋云盘</el-link>
+              <el-link href="https://www.upyunso.com/" target="_blank" type="primary">UP云搜</el-link>
+              <el-link href="https://www.tianyiso.com/" target="_blank" type="primary">天逸搜</el-link>
+              <el-link href="https://ali.gitcafe.ink/" target="_blank" type="primary">小纸条</el-link>
+              <el-link href="https://www.alipansou.com/" target="_blank" type="primary">喵狸盘搜</el-link>
+              <el-link href="https://www.luomapan.com/" target="_blank" type="primary">罗马盘</el-link>
+              <el-link href="https://www.chaonengso.com/" target="_blank" type="primary">超能搜</el-link>
+              <el-link href="https://www.dalipan.com/" target="_blank" type="primary">大力盘</el-link>
+              <el-link href="https://www.feifeipan.com/" target="_blank" type="primary">飞飞盘</el-link>
+            </div>
+            <div>
+              <el-link :underline="false" style="font-weight:bold;">直播：</el-link>
+              <el-link href="https://tv.cctv.com/live/" target="_blank" type="danger">CCTV直播</el-link>
+              <el-link href="http://iptv.xiner.store" target="_blank" type="danger">电视直播</el-link>
+              <el-link href="http://www.zyz98.com/" target="_blank" type="primary">看全球</el-link>
+              <el-link href="http://www.qm5.cc/" target="_blank" type="primary">球迷网</el-link>
+              <el-link href="https://www.luxiangwu.com/nbaluxiang/" target="_blank" type="primary">NBA录像吧</el-link>
+              <el-link href="http://www.qwzb.me/" target="_blank" type="primary">球王直播</el-link>
+              <el-link href="http://www.qm5.cc/" target="_blank" type="primary">柠檬直播</el-link>
+            </div>
+            <div>
+              <el-link :underline="false" style="font-weight:bold;">学习：</el-link>
+              <el-link href="https://rjzxw.com/" target="_blank" type="danger">软件自学网</el-link>
+              <el-link href="https://www.51zxw.net/" target="_blank" type="danger">我要自学网</el-link>
+              <el-link href="http://www.52zxw.com/" target="_blank" type="danger">我爱自学网</el-link>
+              <el-link href="http://v.dxsbb.com/" target="_blank" type="danger">大学生自学网</el-link>
+              <el-link href="https://www.ted.com/" target="_blank" type="danger">TED</el-link>
+              <el-link href="https://www.smartedu.cn/" target="_blank" type="danger">国家智慧教育平台</el-link>
+              <el-link href="https://www.icourses.cn/home/" target="_blank" type="primary">爱课程</el-link>
+              <el-link href="http://open.sina.com.cn/" target="_blank" type="primary">新浪公开课</el-link>
+              <el-link href="https://www.cmooc.com/" target="_blank" type="primary">MOOC中国</el-link>
+              <el-link href="https://open.163.com/" target="_blank" type="primary">网易公开课</el-link>
+              <el-link href="https://www.icourse163.org/" target="_blank" type="primary">中国大学MOOC</el-link>
+              <el-link href="https://www.xuetangx.com/search" target="_blank" type="primary">学堂在线</el-link>
+              <el-link href="https://www.nhk.or.jp/lesson/zh/" target="_blank" type="primary">简明日语</el-link>
             </div>
           </el-collapse-item>
           <el-collapse-item name="3" align="left">
@@ -183,7 +235,11 @@
             <div>
               <el-link :underline="false" style="font-weight:bold;">导航：</el-link>
               <el-link href="https://shadiao.app/" target="_blank" type="danger">沙雕导航</el-link>
+              <el-link href="https://www.xue8nav.com/" target="_blank" type="danger">学吧导航</el-link>
+              <el-link href="https://www.91sotu.com/" target="_blank" type="danger">搜图导航</el-link>
               <el-link href="https://ai-bot.cn/" target="_blank" type="danger">AI工具集</el-link>
+              <el-link href="https://hao.uisdc.com/" target="_blank" type="danger">优设导航</el-link>
+              <el-link href="http://hao.shejidaren.com/" target="_blank" type="danger">设计导航</el-link>
               <el-link href="https://tool.lu/" target="_blank" type="primary">程序员工具箱</el-link>
               <el-link href="https://www.iamwawa.cn/" target="_blank" type="primary">蛙蛙工具</el-link>
               <el-link href="https://xmrth.net/" target="_blank" type="primary">XMRth</el-link>
@@ -257,6 +313,10 @@
               <el-icon><Guide /></el-icon> 冷门网站
             </template>
             <div>
+             <el-link :underline="false" style="font-weight:bold;">推荐：</el-link>
+              <el-link href="https://ym.today/" target="_blank" type="danger">羊毛日报</el-link>
+            </div>
+            <div>
              <el-link :underline="false" style="font-weight:bold;">表情：</el-link>
               <el-link href="http://pdan.com.cn/" target="_blank" type="danger">皮蛋表情</el-link>
               <el-link href="https://www.diydoutu.com/" target="_blank" type="danger">斗图</el-link>
@@ -284,6 +344,37 @@
               <el-link href="https://www.doseeing.com/huya" target="_blank" type="primary">虎牙直播排行</el-link>
               <el-link href="http://www.tvtv.hk/archives/category/dianshiju" target="_blank" type="primary">收视率</el-link>
               <el-link href="https://www.chandashi.com/ranking/index.html" target="_blank" type="primary">蝉大师</el-link>
+            </div>
+          </el-collapse-item>
+          <el-collapse-item name="6" align="left">
+            <template #title>
+              <el-icon><Download /></el-icon> 实用下载
+            </template>
+            <div>
+             <el-link :underline="false" style="font-weight:bold;">推荐：</el-link>
+              <el-link href="http://www.12z.cn/index.html" target="_blank" type="danger">免费小说网</el-link>
+              <el-link href="http://www.dzkbw.com/" target="_blank" type="danger">电子课本</el-link>
+              <el-link href="https://www.fx361.com/" target="_blank" type="danger">期刊杂志</el-link>
+            </div>
+            <div>
+             <el-link :underline="false" style="font-weight:bold;">影视：</el-link>
+              <el-link href="https://ppxzy.net/" target="_blank" type="danger">皮皮虾资源</el-link>
+              <el-link href="https://www.dyg5.com/" target="_blank" type="danger">电影港网</el-link>
+              <el-link href="https://www.rrdynb.com/index.html" target="_blank" type="primary">人人电影网</el-link>
+              <el-link href="https://mp4fan.org/" target="_blank" type="primary">高清MP4</el-link>
+              <el-link href="https://www.mp4us.com/" target="_blank" type="primary">MP4电影</el-link>
+              <el-link href="https://www.hao6v.tv/" target="_blank" type="primary">6V电影网</el-link>
+            </div>
+            <div>
+             <el-link :underline="false" style="font-weight:bold;">字幕：</el-link>
+              <el-link href="https://zimuku.org/" target="_blank" type="danger">字幕库</el-link>
+              <el-link href="https://subhd.tv/" target="_blank" type="primary">SubHD</el-link>
+            </div>
+            <div>
+             <el-link :underline="false" style="font-weight:bold;">小说：</el-link>
+              <el-link href="https://noveless.com/" target="_blank" type="danger">书荒部落</el-link>
+              <el-link href="https://www.zei8.vip/" target="_blank" type="primary">贼吧网</el-link>
+              <el-link href="https://zbook.eu.org/" target="_blank" type="primary">zbook</el-link>
             </div>
           </el-collapse-item>
         </el-collapse>
