@@ -8,7 +8,7 @@
       <template #reference>
         <el-icon>
           <User />
-        </el-icon> 常用网址
+        </el-icon>
       </template>
     </el-popover>
     <el-popover width="200" placement="left-end" trigger="hover">
@@ -18,7 +18,24 @@
       <template #reference>
         <el-icon>
           <ChatDotRound />
-        </el-icon> 常用网址
+        </el-icon>
+      </template>
+    </el-popover>
+    <el-popover width="200" placement="left-end" trigger="hover">
+      <p style="text-align: center;"><b>欢迎关注小哥主页</b></p>
+      <p style="text-align: center; margin: 0;padding: 0;">CSDN:<el-link href="https://tinygeeker.blog.csdn.net/" target="_blank" type="primary">点击访问➢</el-link></p>
+      <p style="text-align: center; margin: 0;padding: 0;">掘金:<el-link href="https://juejin.cn/user/2467756640574845" target="_blank" type="primary">点击访问➢</el-link></p>
+      <p style="text-align: center; margin: 0;padding: 0;">思否:<el-link href="https://segmentfault.com/u/tinygeeker" target="_blank" type="primary">点击访问➢</el-link></p>
+      <p style="text-align: center; margin: 0;padding: 0;">51CTO:<el-link href="https://blog.51cto.com/tinygeeker" target="_blank" type="primary">点击访问➢</el-link></p>
+      <p style="text-align: center; margin: 0;padding: 0;">阿里云:<el-link href="https://developer.aliyun.com/profile/expert/oirrcfhlzqzko" target="_blank" type="primary">点击访问➢</el-link></p>
+      <p style="text-align: center; margin: 0;padding: 0;">腾讯云:<el-link href="https://cloud.tencent.com/developer/user/8345747" target="_blank" type="primary">点击访问➢</el-link></p>
+      <p style="text-align: center; margin: 0;padding: 0;">华为云:<el-link href="https://bbs.huaweicloud.com/community/usersnew/id_1677736481816497" target="_blank" type="primary">点击访问➢</el-link></p>
+      <p style="text-align: center; margin: 0;padding: 0;">InfoQ:<el-link href="https://www.infoq.cn/u/tinygeeker/" target="_blank" type="primary">点击访问➢</el-link></p>
+      <p style="text-align: center; margin: 0;padding: 0;">博客园:<el-link href="https://www.cnblogs.com/tinygeeker/" target="_blank" type="primary">点击访问➢</el-link></p>
+      <template #reference>
+        <el-icon>
+          <Link />
+        </el-icon>
       </template>
     </el-popover>
   </div>
@@ -58,7 +75,7 @@ export default {
 #kefu {
   position: fixed;
   right: 10px;
-  bottom: 100px;
+  bottom: 50%;
   z-index: 999;
   width: 60px;
   height: 60px;
