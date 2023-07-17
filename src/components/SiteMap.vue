@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>极客飞兔 网站导航</h2>
+    <h2>极客飞兔 网站导航 <sub><el-link href="https://tinygeeker.gitee.io/menu/sitemap/?from=https://tinygeeker.github.io/menu/sitemap/" target="_blank" type="primary">国内版>></el-link></sub></h2>
     <el-row type="flex" justify="center" align="middle">
       <el-card shadow="hover" style="width: 80%; border-radius: 4px">
         <el-collapse v-model="activeNames" accordion>
