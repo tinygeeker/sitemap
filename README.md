@@ -8,7 +8,7 @@
 </p>
 
 ## 项目预览
-![项目预览](https://tinygeeker.github.io/static/imgs/sitemap/000.png)
+![项目预览](https://tinygeeker.github.io/static/imgs/sitemap/001.png)
 
 ## 使用方法
 
@@ -26,7 +26,7 @@ npm run tinygeeker
 
 如果你觉得项目有用，就请我喝杯奶茶吧。 :tropical_drink:
 
-![donate](https://tinygeeker.github.io/my/pay/group.jpg)
+![donate](https://tinygeeker.github.io/userinfo/donate/multiple.jpg)
 
 ## 浏览器支持情况
 
@@ -38,4 +38,4 @@ npm run tinygeeker
 
 [MIT](https://github.com/tinygeeker/sitemap/blob/main/LICENSE)
 
-Copyright (c) 2021-present tinygeeker
+Copyright (c) 2021-now tinygeeker
