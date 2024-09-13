@@ -19,10 +19,7 @@
               <el-link href="https://www.toutiao.com/" target="_blank" type="danger">今日头条</el-link>
               <el-link href="https://www.bilibili.com/" target="_blank" type="danger">哔哩哔哩</el-link>
               <el-link href="https://www.douyin.com/" target="_blank" type="danger">抖音</el-link>
-              <el-link href="https://www.douban.com/" target="_blank" type="primary">豆瓣</el-link>
               <el-link href="https://www.zhihu.com/" target="_blank" type="primary">知乎</el-link>
-              <el-link href="https://www.jd.com/" target="_blank" type="primary">京东</el-link>
-              <el-link href="https://www.taobao.com/" target="_blank" type="primary">淘宝</el-link>
               <el-link href="https://www.mafengwo.cn/" target="_blank" type="primary">马蜂窝</el-link>
               <el-link href="http://www.3hk.cn/" target="_blank" type="primary">香港自由行</el-link>
               <el-link href="https://www.pc6.com/" target="_blank" type="primary">PC6下载站</el-link>
