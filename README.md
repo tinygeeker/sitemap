@@ -20,7 +20,7 @@
 
 ## 📸 项目预览
 
-![项目预览](https://tinygeeker.github.io/assets/preview/0000000002.png?t=1)
+![项目预览](https://tinygeeker.github.io/assets/preview/0000000002.png)
 
 ## 🛠️ 使用方法
 
@@ -62,16 +62,6 @@ perfectSitemap/
 ```
 
 ## 🤝 项目贡献
-
-### 贡献方式
-
-1. Fork 本项目
-2. 创建特性分支 (`git checkout -b feature/amazing-feature`)
-3. 提交更改 (`git commit -m 'Add some amazing feature'`)
-4. 推送到分支 (`git push origin feature/amazing-feature`)
-5. 打开 Pull Request
-
-### 支持项目
 
 如果你觉得项目有用，就请我喝杯奶茶吧。 :tropical_drink:
 
