@@ -26,8 +26,8 @@
 
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/tinygeeker/sitemap.git
-cd sitemap
+git clone https://github.com/tinygeeker/perfectSitemap.git
+cd perfectSitemap
 ```
 
 ### 2. 安装依赖
