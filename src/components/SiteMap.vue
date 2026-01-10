@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <h2>极客飞兔 网站导航</h2>
+  <div class="site-map-container">
+    <h2 class="tech-title">
+      <span class="title-text">极客百宝袋</span>
+    </h2>
     <el-row type="flex" justify="center" align="middle">
       <el-card shadow="hover" style="width: 80%; border-radius: 4px">
         <el-collapse v-model="activeNames" accordion>
@@ -332,7 +334,118 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style scoped>
+/* 主容器样式 */
+.site-map-container {
+  position: relative;
+  padding: 40px 20px;
+  z-index: 1;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* 科技感标题样式 */
+.tech-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  margin: 0 auto 40px;
+  display: inline-block;
+  padding: 15px 30px;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.8), rgba(30, 41, 59, 0.8));
+  border-radius: 15px;
+  border: 1px solid rgba(66, 153, 225, 0.3);
+  box-shadow: 
+    0 0 20px rgba(66, 153, 225, 0.3),
+    inset 0 0 30px rgba(66, 153, 225, 0.1);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* 标题悬停效果 */
+.tech-title:hover {
+  transform: translateY(-5px);
+  box-shadow: 
+    0 0 30px rgba(66, 153, 225, 0.5),
+    inset 0 0 40px rgba(66, 153, 225, 0.15);
+}
+
+/* 标题图标 */
+.title-icon {
+  font-size: 2.2rem;
+  margin-right: 15px;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+/* 标题主文本 */
+.title-text {
+  background: linear-gradient(135deg, #4299e1, #6366f1, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 0 10px rgba(66, 153, 225, 0.5);
+}
+
+/* 标题分隔符 */
+.title-divider {
+  margin: 0 20px;
+  color: rgba(66, 153, 225, 0.6);
+  font-size: 1.8rem;
+  opacity: 0.7;
+}
+
+/* 标题副标题 */
+.title-subtext {
+  color: #94a3b8;
+  font-size: 1.8rem;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+/* 标题发光效果 */
+.title-glow {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to bottom right,
+    transparent,
+    rgba(66, 153, 225, 0.1),
+    transparent
+  );
+  transform: rotate(45deg);
+  animation: titleShine 3s infinite ease-in-out;
+  pointer-events: none;
+}
+
+/* 图标脉冲动画 */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* 标题发光动画 */
+@keyframes titleShine {
+  0% {
+    transform: translateX(-100%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(45deg);
+  }
+}
+
+/* 折叠面板样式 */
 .el-collapse-item__header {
   font-size: 15px !important;
   font-weight: bold !important;
@@ -342,8 +455,30 @@ export default {
   border-top: 0 !important;
 }
 
+/* 链接样式 */
 .el-link__inner {
-  margin: 1vh;
+  margin: 0.5vh;
+}
+
+/* 为div容器中的外链添加间距 */
+.el-collapse-item__content > div {
+  margin-bottom: 10px;
+}
+
+/* 分类标签样式 */
+.el-collapse-item__content > div .el-link--default {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* 危险链接样式 */
+.el-collapse-item__content > div .el-link--danger {
+  margin-right: 10px;
+}
+
+/* 主要链接样式 */
+.el-collapse-item__content > div .el-link--primary {
+  margin-right: 10px;
 }
 
 .el-icon {
