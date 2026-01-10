@@ -20,7 +20,7 @@
 
 ## 📸 项目预览
 
-![项目预览](https://tinygeeker.github.io/assets/preview/0000000002.png)
+![项目预览](https://tinygeeker.github.io/assets/preview/0000000002.png?t=1)
 
 ## 🛠️ 使用方法
 
