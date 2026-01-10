@@ -35,7 +35,7 @@ cd perfectSitemap
 npm install
 ```
 
-### 3. 启动开发服务器
+### 3. 启动项目
 ```bash
 npm run tinygeeker
 ```
